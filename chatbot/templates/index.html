@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload PDF Files</title>
+</head>
+<body>
+    <h1>Upload PDF Files</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ pdf_form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
