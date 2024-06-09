@@ -1,0 +1,46 @@
+.pdf-container {
+    width: 50%;
+    border: 1px solid #ccc;
+}
+.section1 {
+    height: 90vh;
+    border-radius: 10px;
+    background-color: #fff;
+    filter: drop-shadow(10px 7px 10px)
+}
+.section1 h1 {
+    font-size: 20px;
+}
+.section2 {
+    height: 90vh;
+    width: 50%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 30px;
+    /* backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rbga(227,228,237,0.37);
+    border: 2px solid rbga(225,255,255,0.18); */
+    filter: drop-shadow(10px 7px 10px)
+
+}
+.section2 h1 {
+    font-size: 20px;
+}
+.main {
+    background: linear-gradient(to right,#b021b0, #3a053a);
+    padding: 40px;
+    display: flex;
+}
+.section3 {
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.vedio_block {
+    display: flex;
+    flex-direction: row;
+}
+.img {
+    height: 150px;
+}
++9/
