@@ -7,7 +7,12 @@
     <h1>Upload PDF Files</h1>
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        {{ pdf_form.as_p }}
+        {{ pdf_form.pdfs }}
+        <button type="submit">Submit</button>
+    </form>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ pdf_form.pdfs }}
         <button type="submit">Submit</button>
     </form>
 </body>
